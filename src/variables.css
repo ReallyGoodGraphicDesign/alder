@@ -238,6 +238,7 @@ header h1 {
 @media (max-width: 600px) {
 header h1 {
         z-index: 998;
+        font-size: 2.5rem;
 }
 }
 .text-highlight-alder {
@@ -298,6 +299,7 @@ h2 {
 @media (max-width: 600px) {
 .hero-text h2 {
         opacity: 1;
+        font-size: 2rem;
 }
 }
 #vrd {
@@ -420,6 +422,7 @@ p { /* checked */
 @media (max-width: 600px) {
 .hero-inner p { /* checked */
         z-index: 998;
+        font-size: 1.25rem;
 }
 }
 .about-outer p { 

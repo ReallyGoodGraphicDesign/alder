@@ -17,8 +17,8 @@
         justify-content: flex-start;
         align-items: flex-start;
         gap: 0; 
-        margin: 50px;
-        padding: 20px;
+        margin: 3%;
+        padding: 3%;
         box-sizing: border-box;
         border-radius: 6px;
 }

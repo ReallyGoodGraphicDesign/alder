@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "./CaseStudyModal.css";
-import close from "./assets/close_alder_4.svg";
 const CaseStudyModal = ({ field_02, field_03, field_04, field_05, field_06, field_07, onClose, }) => {
 useEffect(() => {
     // Disable background scroll
