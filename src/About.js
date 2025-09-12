@@ -154,10 +154,8 @@ return (
                       type="button"
                       aria-expanded={isOpen}
                       aria-controls={panelId}
-                      onClick={() => toggle(id)}
-                    >
+                      onClick={() => toggle(id)} >
                       <span className="accordion-button-label">{title}</span>
-                      {/* Bootstrap Icons chevron; rotates via CSS */}
                       <i className="bi bi-chevron-right accordion-button-icon" aria-hidden="true" />
                     </button>
                   </h3>
