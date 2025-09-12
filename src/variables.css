@@ -299,7 +299,7 @@ h2 {
 @media (max-width: 600px) {
 .hero-text h2 {
         opacity: 1;
-        font-size: 2rem;
+        font-size: 1.75rem;
 }
 }
 #vrd {
@@ -394,7 +394,7 @@ h4 {
 }/* #endregion TEXT - HEADINGS - h4 */       
 /* #endregion TEXT - HEADINGS */       
 /* #region TEXT - PARA & LISTS */       
-p { /* checked */
+p { 
         z-index: 998;
         font-size: 1rem;
         line-height: 1.6;
@@ -402,27 +402,28 @@ p { /* checked */
 }
 /* #region TEXT - PARA & LISTS */       
 @media (min-width: 601px) and (max-width: 1024px) {
-p { /* checked */
+p { 
         z-index: 998;
 }
 }
 @media (max-width: 600px) {
-p { /* checked */
+p { 
         z-index: 998;
 }
 }
-.hero-inner p { /* checked */
+.hero-inner p { 
         font-size: 1.5rem;
 }
 @media (min-width: 601px) and (max-width: 1024px) {
-.hero-inner p { /* checked */
+.hero-inner p { 
         z-index: 998;
 }
 }
 @media (max-width: 600px) {
-.hero-inner p { /* checked */
+.hero-inner p { 
         z-index: 998;
-        font-size: 1.25rem;
+        font-size: 1.2rem;
+        line-height: 1.5;
 }
 }
 .about-outer p { 
@@ -438,18 +439,18 @@ p { /* checked */
         z-index: 998;
 }
 }
-.p-small { /* checked */
+.p-small { 
         z-index: 998;
         font-size: .875rem;
         margin: 0rem 0rem 1rem 0rem;
 }
 @media (min-width: 601px) and (max-width: 1024px) {
-.p-small { /* checked */
+.p-small { 
         opacity: 1;
 }
 }
 @media (max-width: 600px) {
-.p-small { /* checked */
+.p-small { 
         opacity: 1;
 }
 }
