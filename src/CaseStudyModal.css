@@ -30,6 +30,17 @@
 @media (max-width: 600px) {
 .modal-nav-and-text {
         opacity: 1;
+        background-color: var(--modal-nav-and-text);
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 0; 
+        margin: 3%;
+        padding: 3%;
+        box-sizing: border-box;
+        border-radius: 6px;
 }
 }
 .modal-nav {
