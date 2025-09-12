@@ -620,9 +620,9 @@ li {
 /* #region TEXT - CASE STUDY MODALS */       
 .modal-field_02 {
         font-size: 3rem;
+        line-height: 1.25rem;
         margin-top: .25rem;    
         margin-bottom: 2.5rem;
-        line-height: 1.25rem;
         text-transform: uppercase;
 }
 @media (min-width: 601px) and (max-width: 1024px) {
@@ -634,17 +634,17 @@ li {
 .modal-field_02 {
         opacity: 1;
         font-size: 2.5rem;
-        margin-top: .35rem;    
-        margin-bottom: 2.5rem;
-        line-height: 5rem;
+        line-height: 2rem;
+        margin-top: .3rem;    
+        margin-bottom: 2rem;
         text-transform: uppercase;
 }
 }
 .modal-field_03 {
         font-size: 2rem;
+        line-height: 1.5rem;  
         margin-top: .5rem;    
         margin-bottom: 1.75rem;
-        line-height: 1.5rem;  
 }
 @media (min-width: 601px) and (max-width: 1024px) {
 .modal-field_03 {
