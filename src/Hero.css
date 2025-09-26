@@ -100,26 +100,15 @@
 }
 }
 @media (max-width: 600px) {
-/*
 .hero-image-bg {
         z-index: 998;
-        background-image: url(assets/202304-Alaska-0849.jpg); 
+        background-image: url(assets/alder_banner_12.jpg); 
         flex: none;
         display: block;
-        height: 35vw;
-        background-position: calc(50% + 15px) calc(50% + 15px);
-        background-size: 108%;
-}
-*/
-.hero-image-bg {
-        z-index: 998;
-        background-image: url(assets/alder_banner_03.jpg); 
-        flex: none;
-        display: block;
-        height: 29vw;
+        height: 29.5vw;
         background-position: 
         calc(50% + 0px) /* this does XXXXX */ 
-        calc(50% + 1.87vw); /* increasing the '+' moves image content down within image frame */
+        calc(50% + 6.125vw); /* increasing the '+' moves image content down within image frame */
         background-size: 100%;
 }
 }
