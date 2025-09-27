@@ -102,14 +102,33 @@
 @media (max-width: 600px) {
 .hero-image-bg {
         z-index: 998;
-        background-image: url(assets/alder_banner_12.jpg); 
+        background-image: var(--banner_url); 
         flex: none;
         display: block;
-        height: 29.5vw;
-        background-position: 
-        calc(50% + 0px) /* this does XXXXX */ 
-        calc(50% + 6.125vw); /* increasing the '+' moves image content down within image frame */
+        height: var(--banner_height);
+        background-position: var(--banner_position);
         background-size: 100%;
+}
+/* Make the mobile hero background behave like a proper button */
+@media (max-width: 600px) {
+  .hero-banner-button {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    /* Height & background are already defined on .hero-image-bg
+       via CSS variables; we keep both classes on the element. */
+    display: block;
+    cursor: pointer;
+    background-color: transparent; /* preserve the background from .hero-image-bg */
+  }
+
+  .hero-banner-button:focus-visible {
+    outline: 2px solid var(--alder_1);
+    outline-offset: 2px;
+  }
 }
 }
 .hero-text-and-buttons {
