@@ -11,7 +11,7 @@ function Footer() {
                         aria-label="LinkedIn" 
                         className="social-icon" 
                         target="_blank" 
-                        rel="noopener noreferrer">
+                        rel="noreferrer">
                                 <svg 
                                 height="72" 
                                 viewBox="0 0 72 72" 
@@ -25,7 +25,7 @@ function Footer() {
                         aria-label="Substack" 
                         className="social-icon" 
                         target="_blank" 
-                        rel="noopener noreferrer">
+                        rel="noreferrer">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                 <path fill="#ff6c1e" d="M22.539 8.242H1.46V5.406h21.08zM1.46 10.812V24L12 18.11L22.54 24V10.812zM22.54 0H1.46v2.836h21.08z"/></svg>
                         </a>
@@ -34,7 +34,7 @@ function Footer() {
                         aria-label="Minority Business Enterprise" 
                         className="social-icon" 
                         target="_blank" 
-                        rel="noopener noreferrer">
+                        rel="noreferrer">
                                 <img src={MBE} alt="Minority Business Enterprise Logo"/>
                         </a>
                         <a 
@@ -42,7 +42,7 @@ function Footer() {
                         aria-label="Women Business Enterprise" 
                         className="social-icon" 
                         target="_blank" 
-                        rel="noopener noreferrer">
+                        rel="noreferrer">
                                 <img src={WBE}  alt="Women Business Enterprise Logo"/>
                         </a>
                 </div>
