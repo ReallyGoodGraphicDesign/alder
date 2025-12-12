@@ -35,7 +35,7 @@ const Hero = forwardRef((props, ref) => {
         {/* Mobile background as a real button */}
         <button
           type="button"
-          className="hero-image-bg hero-banner-button"
+          className="hero-image-carousel hero-banner-button"
           onClick={advanceBanner}
           aria-label="Show next banner image"
           title="Tap to change banner"
