@@ -2,17 +2,7 @@
         z-index: 998;
         background-color: var(--outer-no-bg);
         padding-bottom: 0; 
-        
-        
-        /*
         display: block; 
-        */
-        display: block; 
-        
-        
-        /*
-        display: none; 
-        */
 }
 @media (min-width: 601px) and (max-width: 1024px) {
 .hero-outer {
@@ -61,9 +51,6 @@
 .hero-image {
         z-index: 998;
         padding: 1rem .35rem 1rem 1rem;
-        /*
-        flex: 1 1 33.33%;
-        */
 }
 }
 @media (max-width: 600px) {
@@ -91,16 +78,16 @@
         opacity: 1;
 }
 }
-.hero-image-bg {
+.hero-image-carousel {
         display: none;
 }
 @media (min-width: 601px) and (max-width: 1024px) {
-.hero-image-bg {
+.hero-image-carousel {
         z-index: 998;
 }
 }
 @media (max-width: 600px) {
-.hero-image-bg {
+.hero-image-carousel {
         z-index: 998;
         background-image: var(--banner_url); 
         flex: none;
@@ -118,11 +105,11 @@
     padding: 0;
     margin: 0;
     width: 100%;
-    /* Height & background are already defined on .hero-image-bg
+    /* Height & background are already defined on .hero-image-carousel
        via CSS variables; we keep both classes on the element. */
     display: block;
     cursor: pointer;
-    background-color: transparent; /* preserve the background from .hero-image-bg */
+    background-color: transparent; /* preserve the background from .hero-image-carousel */
   }
 
   .hero-banner-button:focus-visible {
