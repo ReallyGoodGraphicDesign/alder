@@ -8,7 +8,7 @@ const Header = forwardRef((props, ref) => (
                         <h1>
                                 <span className="text-highlight-alder">ALDER </span> 
                                 <span className="text-highlight-advisory">ADVISORY </span> 
-                                <span className="text-highlight-llc">LLC !</span> 
+                                <span className="text-highlight-llc">LLC</span> 
                         </h1>
                 </div>                           
                 <div className="header-buttons">
