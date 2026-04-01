@@ -39,7 +39,7 @@ function Footer() {
                         </a>
                 </div>
                 <div className="footer-right">
-                        <p className="p-small">&copy; 2025 Alder Advisory LLC</p>
+                        <p className="p-small">&copy; 2026 Alder Advisory LLC</p>
                 </div>
         </div>
 
